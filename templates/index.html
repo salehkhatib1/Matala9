@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Component</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div
+      id="div1"
+      style="
+        background-color: #e6f0ff;
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+      "
+    >
+      <!-- Nested div for the header -->
+      <div class="header" style="padding: 10px 0">
+        <h1
+          style="
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            color: #003366;
+            margin: 0;
+          "
+        >
+          Book Component By Function
+        </h1>
+      </div>
+
+      <!-- Yellow div -->
+      <div
+        id="yellow"
+        style="
+          width: 35%;
+          height: 40%;
+          background-color: yellow;
+          margin: 20px auto;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          justify-content: stretch;
+        "
+      >
+        <!-- Top part (light gray) -->
+        <div
+          style="
+            background-color: lightgray;
+            color: black;
+            flex: 1;
+            font-size: 12px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          This is a box with ten black words inside.
+        </div>
+
+        <!-- Middle part (white) -->
+        <div
+          style="
+            background-color: white;
+            color: black;
+            flex: 1;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          SCOPE & CLOSURES
+        </div>
+
+        <!-- Bottom part (yellow) -->
+        <div
+          style="
+            background-color: yellow;
+            color: black;
+            flex: 1;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          JS
+        </div>
+      </div>
+
+      <!-- Author Section -->
+      <h2 style="color: #003366; font-size: 16px; margin: 10px 0">
+        BY Kyle Simpson
+      </h2>
+
+      <!-- Description Section -->
+      <h3 style="color: black; font-size: 14px; margin: 10px 0">
+        Parts of the language that many JavaScript programmers simply avoid
+      </h3>
+
+      <!-- Footer -->
+      <div
+        class="footer"
+        style="margin-top: 10px; font-size: 12px; color: #555"
+      >
+        © Tania 2021
+      </div>
+    </div>
+  </body>
+</html>
